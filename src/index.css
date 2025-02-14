@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #1a202c; /* Fundo escuro */
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+body {
+  @apply bg-background text-text font-sans;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-semibold text-primary;
+}
+
+button {
+  @apply px-4 py-2 rounded-lg font-bold text-white bg-primary transition-all duration-300 ease-in-out;
+}
+
+button:hover {
+  @apply bg-blue-600 shadow-lg scale-105;
+}
+
+button:focus {
+  @apply outline-none ring-2 ring-secondary;
+}
+
+input[type="number"],
+select {
+  @apply p-3 rounded-md bg-card text-text border-none focus:ring-2 focus:ring-primary focus:outline-none;
+}
+
+input[type="number"]::placeholder,
+select::placeholder {
+  @apply text-gray-400;
+}
+
+select {
+  @apply cursor-pointer;
+}
+
+ul {
+  @apply list-disc pl-4;
+}
