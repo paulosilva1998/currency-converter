@@ -11,3 +11,10 @@ Este é um Conversor de Moedas desenvolvido em React.js com Tailwind CSS, permit
 ✅ Histórico das últimas conversões.
 
 ✅ Design otimizado com Tailwind CSS.
+
+## O que usamos:
+
+- React.js
+- Vite
+- Tailwind CSS
+- API de Câmbio (se aplicável)
