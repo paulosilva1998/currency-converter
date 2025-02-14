@@ -29,7 +29,4 @@ Este é um Conversor de Moedas desenvolvido em React.js com Tailwind CSS, permit
 ![Captura de tela 2025-02-13 214659](https://github.com/user-attachments/assets/0d4d9736-8858-48ff-9957-2b6db3888cc7)
 ![Captura de tela 2025-02-13 214717](https://github.com/user-attachments/assets/aa7e1a6a-18f8-44f3-8a36-5af55a4d5753)
 
-
-
-
-
+## Vídeo rodando e usando o conversor!
